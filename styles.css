@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.header{
+    display: flex;
+}
+
+.header-links{
+    display: flex;
+    gap: 10px;
+    margin-left: auto;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+}
+
+.left-side{
+    display: flex;
+    flex-direction: column;
+    flex: 0;
+}
